@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text, p {
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 12px;
+}
+
+button:focus {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 12px;
+}
+
+.navbar  {
+    background: #1f2937;
+}
+
+.navbar .container {
+    display: flex;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.navbar .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header {
+    background: #1f2937;    
+    display: flex;
+}
+
+header .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+header .header1 {
+    display: flex;
+    flex-flow: column;
+    width: 550px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+header .header1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+header .header1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header .header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img  {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.info {
+   text-align: center;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+   flex: 1;
+   gap: 50px;
+   padding: 50px;
+}
+
+.into-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards {   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.card .text {
+
+}
+
+.card img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3)
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.quote .content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 550px;
+}
+
+.quote .content .text {
+    align-self: flex-end;
+}
+
+.signup {
+    flex: 1;
+}
+
+footer {
+    background-color: #1f2937;
+    min-height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
